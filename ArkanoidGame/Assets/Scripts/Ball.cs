@@ -58,16 +58,17 @@ public class Ball : MonoBehaviour
             inPlay = false;
 
         }
-        void OnCollisionEnter2D(Collider2D other)
-        {
-            if (other.transform.CompareTag("brcik"))
-            {
-                Destroy(other.gameObject);
-            }
-        }
+   
     
     
         
+    }
+    void OnCollisionEnter2D(Collider2D other)
+    {
+        if (other.transform.CompareTag("brick"))
+        {
+            Destroy (other.gameObject);
+        }
     }
 }
 
