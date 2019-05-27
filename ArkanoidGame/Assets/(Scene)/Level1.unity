@@ -992,6 +992,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   Paddle: {fileID: 182838288}
   inPlay: 0
+  speed: 500
 --- !u!1 &1014425643
 GameObject:
   m_ObjectHideFlags: 0

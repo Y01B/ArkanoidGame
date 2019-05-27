@@ -15,6 +15,7 @@ public class Ball : MonoBehaviour
     public Transform Paddle; //stores reference to the paddle
     Vector2 paddleToBallVector;
     public bool inPlay;
+    public float speed;
 
     // Start is called before the first frame update
     private void Start()
@@ -44,7 +45,7 @@ public class Ball : MonoBehaviour
             inPlay = true;
             rb.simulated = true;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush);
-            rb.AddForce(Vector2.up * 500);
+            rb.AddForce(Vector2.up * speed);
         }
            
     }
@@ -56,6 +57,13 @@ public class Ball : MonoBehaviour
             rb.velocity = Vector2.zero;
             inPlay = false;
 
+        }
+        void OnCollisionEnter2D(Collider2D other)
+        {
+            if (other.transform.CompareTag("brcik"))
+            {
+                Destroy(other.gameObject);
+            }
         }
     
     
