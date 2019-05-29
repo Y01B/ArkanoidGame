@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You are wothy of inheriting the Chocolate Empire!
+  m_Text: Your feet are safe!
 --- !u!222 &55193162
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -624,7 +624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click this button to try again
+  m_Text: Another night!
 --- !u!222 &1801978679
 CanvasRenderer:
   m_ObjectHideFlags: 0
