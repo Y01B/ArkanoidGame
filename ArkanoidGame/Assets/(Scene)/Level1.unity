@@ -474,6 +474,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2214554333887622825, guid: 177970bc4359604478344ad6ddaae06f,
+        type: 3}
+      propertyPath: BlockBroken1
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f9dd403b4141df4481ca87cc7bb5c01,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 177970bc4359604478344ad6ddaae06f, type: 3}
 --- !u!1001 &396041833
@@ -791,6 +797,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BasicTooth (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214554333887622829, guid: 177970bc4359604478344ad6ddaae06f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2214554333887622831, guid: 177970bc4359604478344ad6ddaae06f,
         type: 3}
@@ -1335,6 +1346,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2251814861136959207, guid: 407aec539f014fe449cbc5d5fe2ec894,
+        type: 3}
+      propertyPath: BlockBroken1
+      value: 
+      objectReference: {fileID: 21300000, guid: bb0dab07e53ac74419e34061505b6b5e,
+        type: 3}
+    - target: {fileID: 2251814861136959207, guid: 407aec539f014fe449cbc5d5fe2ec894,
+        type: 3}
+      propertyPath: tooth
+      value: 
+      objectReference: {fileID: 21300000, guid: bb0dab07e53ac74419e34061505b6b5e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 407aec539f014fe449cbc5d5fe2ec894, type: 3}
 --- !u!1 &1012244783
@@ -1475,6 +1498,10 @@ MonoBehaviour:
   Paddle: {fileID: 182838288}
   inPlay: 0
   speed: 500
+  BlockBroken1: {fileID: 21300000, guid: bb0dab07e53ac74419e34061505b6b5e, type: 3}
+  BlockBroken2: {fileID: 21300000, guid: 4f9dd403b4141df4481ca87cc7bb5c01, type: 3}
+  hitsToKill: 0
+  points: 0
 --- !u!1 &1318260141
 GameObject:
   m_ObjectHideFlags: 0

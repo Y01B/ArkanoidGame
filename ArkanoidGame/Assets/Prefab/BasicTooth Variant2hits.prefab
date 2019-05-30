@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasicTooth Variant2hits
       objectReference: {fileID: 0}
+    - target: {fileID: 2214554333887622829, guid: 177970bc4359604478344ad6ddaae06f,
+        type: 3}
+      propertyPath: m_TagString
+      value: brick2
+      objectReference: {fileID: 0}
     - target: {fileID: 2214554333887622831, guid: 177970bc4359604478344ad6ddaae06f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -97,5 +102,11 @@ PrefabInstance:
       propertyPath: hitsToKill
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2214554333887622825, guid: 177970bc4359604478344ad6ddaae06f,
+        type: 3}
+      propertyPath: BlockBroken1
+      value: 
+      objectReference: {fileID: 21300000, guid: bb0dab07e53ac74419e34061505b6b5e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 177970bc4359604478344ad6ddaae06f, type: 3}

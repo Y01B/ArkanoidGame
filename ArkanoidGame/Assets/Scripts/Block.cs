@@ -6,10 +6,11 @@ public class Block : MonoBehaviour
 {
     public int hitsToKill;
     public int points;
-    private int numberOfHits;
+    private int numberOfHits = 0;
     private SpriteRenderer myspriteRenderer;
-     
-    string Block_Square;
+    public Sprite BlockBroken1;
+    public Sprite BlockBroken2;
+
 
     private void Start()
     {
@@ -22,23 +23,45 @@ public class Block : MonoBehaviour
         if (collision.gameObject.tag == "Ball")
         {
 
+
             numberOfHits++;
 
-            if (numberOfHits == hitsToKill +1)
+            //switch (numberOfHits)
+            // {
+            //  case 1:
+            //myspriteRenderer.sprite = BlockBroken1;
+            //  Destroy(this.gameObject);
+            //  break;
+            // case 2:
+
+            //  break;
+            //  default:
+            //  break;
+            //gameObject.SetActive(true);
+
+
+            if (numberOfHits == 1)
             {
-                
+                myspriteRenderer.sprite = BlockBroken1;
+            }
+            if (numberOfHits == 2)
+            {
+                myspriteRenderer.sprite = BlockBroken2;
             }
             if (numberOfHits == hitsToKill)
             {
-                // destroy the object
+                //destroy the object
                 Destroy(this.gameObject);
+
             }
             Debug.Log(collision.gameObject.name);
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        
+
 
     }
-}
+
+    
+
+
+

@@ -107,5 +107,17 @@ PrefabInstance:
       propertyPath: hitsToKill
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2214554333887622825, guid: 177970bc4359604478344ad6ddaae06f,
+        type: 3}
+      propertyPath: BlockBroken2
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f9dd403b4141df4481ca87cc7bb5c01,
+        type: 3}
+    - target: {fileID: 2214554333887622825, guid: 177970bc4359604478344ad6ddaae06f,
+        type: 3}
+      propertyPath: BlockBroken1
+      value: 
+      objectReference: {fileID: 21300000, guid: bb0dab07e53ac74419e34061505b6b5e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 177970bc4359604478344ad6ddaae06f, type: 3}

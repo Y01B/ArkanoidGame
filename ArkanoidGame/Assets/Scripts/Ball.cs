@@ -16,12 +16,14 @@ public class Ball : MonoBehaviour
     Vector2 paddleToBallVector;
     public bool inPlay;
     public float speed;
+    
 
     // Start is called before the first frame update
     private void Start()
     {
 
         rb = GetComponent<Rigidbody2D>();
+        
 
     }
 
@@ -47,30 +49,32 @@ public class Ball : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush);
             rb.AddForce(Vector2.up * speed);
         }
-           
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Bottom"))
+        if (other.CompareTag("Bottom"))
         {
             rb.velocity = Vector2.zero;
             inPlay = false;
 
         }
-   
-    
-    
-        
+
+
+
+
     }
     void OnCollisionEnter2D(Collider2D other)
     {
-        if (other.transform.CompareTag("brick"))
+
+        if (other.gameObject.tag == "brick"))
         {
-            Destroy (other.gameObject);
+            Destroy(other.gameObject);
+
         }
+
     }
+
 }
-
-
   
