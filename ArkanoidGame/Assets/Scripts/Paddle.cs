@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Paddle : MonoBehaviour { 
 
@@ -23,5 +24,12 @@ public class Paddle : MonoBehaviour {
     transform.position = paddlePos;
 
         Debug.Log(Input.mousePosition.x/Screen.width);
+    }
+    void Win()
+    {
+        if ((GameObject.FindGameObjectsWithTag("brick")).Length == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        }
     }
 }
