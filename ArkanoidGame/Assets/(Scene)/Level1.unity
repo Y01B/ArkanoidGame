@@ -731,7 +731,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 020cee225ac40334baafacfde2df27b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 791a5745251fadc40a7da92721e06034, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -750,7 +750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864699102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 0.83, z: 10}
+  m_LocalPosition: {x: 8.03, y: 0.84, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 182838288}
@@ -774,7 +774,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 0.5}
+    oldSize: {x: 3.39, y: 1.12}
     newSize: {x: 2.56, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -782,13 +782,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.5703125, y: 0.25}
-      - {x: -0.5703125, y: 0.25}
-      - {x: -1, y: 0.0625}
-      - {x: -1, y: -0.25}
-      - {x: 1, y: -0.25}
-      - {x: 1, y: 0.0703125}
-      - {x: 0.8359375, y: 0.140625}
+    - - {x: 0.9956875, y: 0.5948166}
+      - {x: -0.99102974, y: 0.6026415}
+      - {x: -1.7577081, y: 0.43470746}
+      - {x: -1.6380692, y: 0.20196551}
+      - {x: 1.7045355, y: 0.20196551}
+      - {x: 1.7553463, y: 0.4197901}
 --- !u!50 &864699106
 Rigidbody2D:
   serializedVersion: 4
@@ -1050,7 +1049,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 00e4f16b2dfa35e418a4c9de99f15076, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb557137cd3ee5841865f8afec9e092c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1070,7 +1069,7 @@ Transform:
   m_GameObject: {fileID: 1012244783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8, y: 1.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.47094, y: 0.47094, z: 0.47094}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1084,13 +1083,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1012244783}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: f1c5e559eba842a4eab44a41531c0ea6, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.21
+  m_Radius: 0.54
 --- !u!50 &1012244787
 Rigidbody2D:
   serializedVersion: 4
