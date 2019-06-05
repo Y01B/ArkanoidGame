@@ -21,10 +21,7 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-
         rb = GetComponent<Rigidbody2D>();
-        
-
     }
 
     // Update is called once per frame
@@ -33,7 +30,6 @@ public class Ball : MonoBehaviour
         if (!inPlay)
         {
             transform.position = Paddle.position;
-
         }
 
         LaunchToPaddle();
@@ -58,11 +54,7 @@ public class Ball : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             inPlay = false;
-
         }
-
-
-
 
     }
     void OnCollisionEnter2D(Collider2D other)
@@ -71,7 +63,6 @@ public class Ball : MonoBehaviour
         if (other.gameObject.tag == "brick")
         {
             Destroy(other.gameObject);
-
         }
 
     }
