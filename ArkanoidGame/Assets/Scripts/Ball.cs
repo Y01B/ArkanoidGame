@@ -68,7 +68,7 @@ public class Ball : MonoBehaviour
     void OnCollisionEnter2D(Collider2D other)
     {
 
-        if (other.gameObject.tag == "brick"))
+        if (other.gameObject.tag == "brick")
         {
             Destroy(other.gameObject);
 
